@@ -1,9 +1,21 @@
 body {
+	background-color: #0D1F30;
+}
+
+.searchBar {
+	background-color: #DB6C0F;
+}
+
+.row0 .well {
+	background-color: #8BADA3;
+}
+
+.row3 .well {
 	background-color: #3B6670;
 }
 
-.well {
-	background-color: #8BADA3;
+.row6 .well {
+	background-color: #424E52;
 }
 
 .well img {
@@ -14,5 +26,11 @@ body {
 .searchBar {
 	margin-top: 2%;
 	margin-left: 5%;
+
+}
+
+.searchBtn {
+	width: 200px;
+	margin-left: 13%;
 }
 
