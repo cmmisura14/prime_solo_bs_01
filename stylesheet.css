@@ -1,0 +1,18 @@
+body {
+	background-color: #3B6670;
+}
+
+.well {
+	background-color: #8BADA3;
+}
+
+.well img {
+	width: 150px;
+	height: 150px;
+}
+
+.searchBar {
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
