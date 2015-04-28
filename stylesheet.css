@@ -18,6 +18,17 @@ body {
 	background-color: #424E52;
 }
 
+.container .row {
+	display: table;
+	float: none;
+}
+
+.container .well {
+	display: table-cell;
+	float: none;
+	
+}
+
 .well img {
 	width: 150px;
 	height: 150px;

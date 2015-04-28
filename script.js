@@ -17,7 +17,7 @@ function searchCallback(results) {
 		$(".row" + count).append("<div class='col-md-4 well game'><p class='lead'>" + name + "</p><div class='hidden-sm hidden-xs'><img src='" + image + "'></div><p>Description: " + description + "</p><button class='btn btn-sm btn-success remove'>Purchase</button></div>");
 		$(".row" + count).hide();
 		$(".row" + count).delay(i * 500).fadeIn("slow");
-    	console.log(results);
+    	
     }
 }
 
@@ -25,7 +25,8 @@ $(document).ready(function() {
 	//search("batman");
 	// Start the search here!
 	$(".container").on("click", ".remove", function(){
-		$(this).parent().fadeOut("slow");
+		$(this).parent().fadeOut("slow").remove();
+		
 	});
 	
 	$(".btn").on("click", function(){
